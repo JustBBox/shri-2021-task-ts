@@ -1,15 +1,6 @@
 import { color } from './colors';
 import { markdown } from './md';
-
-export interface Options {
-    font?: string;
-    background?: string;
-    effects?: string[];
-    bold?: boolean;
-    italic?: boolean;
-    mono?: boolean;
-    link?: string;
-}
+import { Options } from './model';
 
 export function style(text: string, options: Options) {
     if (text.length === 0) {

@@ -1,5 +1,5 @@
 import { color } from './colors';
-import { Options } from './style';
+import { Options } from './model';
 
 export function markdown(text: string, options: Options) {
     let result = text;
